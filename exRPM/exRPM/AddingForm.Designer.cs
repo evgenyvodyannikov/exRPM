@@ -62,30 +62,38 @@
             // tbLastName
             // 
             this.tbLastName.Location = new System.Drawing.Point(114, 15);
+            this.tbLastName.MaxLength = 15;
             this.tbLastName.Name = "tbLastName";
             this.tbLastName.Size = new System.Drawing.Size(100, 20);
             this.tbLastName.TabIndex = 1;
+            this.tbLastName.TextChanged += new System.EventHandler(this.tbLastName_TextChanged);
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.button1.Location = new System.Drawing.Point(626, 370);
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(17, 294);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(78, 68);
+            this.button1.Size = new System.Drawing.Size(91, 68);
             this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Text = "Ок";
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button2.Location = new System.Drawing.Point(710, 370);
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button2.Location = new System.Drawing.Point(114, 294);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(78, 68);
+            this.button2.Size = new System.Drawing.Size(111, 68);
             this.button2.TabIndex = 2;
-            this.button2.Text = "button1";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Text = "Отмена";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
@@ -100,9 +108,11 @@
             // tbFirstName
             // 
             this.tbFirstName.Location = new System.Drawing.Point(114, 54);
+            this.tbFirstName.MaxLength = 15;
             this.tbFirstName.Name = "tbFirstName";
             this.tbFirstName.Size = new System.Drawing.Size(100, 20);
             this.tbFirstName.TabIndex = 1;
+            this.tbFirstName.TextChanged += new System.EventHandler(this.tbLastName_TextChanged);
             // 
             // groupBox1
             // 
@@ -193,6 +203,8 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Лондон",
@@ -218,6 +230,8 @@
             // 
             // comboBox2
             // 
+            this.comboBox2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "7 дней",
@@ -236,7 +250,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.ClientSize = new System.Drawing.Size(512, 369);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.groupBox2);
@@ -250,7 +266,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Name = "AddingForm";
-            this.Text = "AddingForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Добавить запись в таблицу";
+            this.Load += new System.EventHandler(this.AddingForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
