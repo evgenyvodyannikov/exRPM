@@ -48,5 +48,19 @@ namespace exRPM
             dataGridView1.Rows.Clear();
             i = 0;
         }
+
+        private void удалитьВыбраннуюСтрокуToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int delet = dataGridView1.SelectedCells[0].RowIndex;
+                dataGridView1.Rows.RemoveAt(delet);
+                i--;
+            }
+            catch
+            {
+
+            }
+        }
     }
 }
