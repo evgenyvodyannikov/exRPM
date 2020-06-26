@@ -16,5 +16,10 @@ namespace exRPM
         {
             InitializeComponent();
         }
+
+        private void закрытьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

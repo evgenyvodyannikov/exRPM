@@ -1,0 +1,10 @@
+C:\Users\vodya\OneDrive\Рабочий стол\дз\exRPM\exRPM\exRPM\bin\Debug\exRPM.exe.config
+C:\Users\vodya\OneDrive\Рабочий стол\дз\exRPM\exRPM\exRPM\bin\Debug\exRPM.exe
+C:\Users\vodya\OneDrive\Рабочий стол\дз\exRPM\exRPM\exRPM\bin\Debug\exRPM.pdb
+C:\Users\vodya\OneDrive\Рабочий стол\дз\exRPM\exRPM\exRPM\obj\Debug\exRPM.csprojAssemblyReference.cache
+C:\Users\vodya\OneDrive\Рабочий стол\дз\exRPM\exRPM\exRPM\obj\Debug\exRPM.Form1.resources
+C:\Users\vodya\OneDrive\Рабочий стол\дз\exRPM\exRPM\exRPM\obj\Debug\exRPM.Properties.Resources.resources
+C:\Users\vodya\OneDrive\Рабочий стол\дз\exRPM\exRPM\exRPM\obj\Debug\exRPM.csproj.GenerateResource.cache
+C:\Users\vodya\OneDrive\Рабочий стол\дз\exRPM\exRPM\exRPM\obj\Debug\exRPM.csproj.CoreCompileInputs.cache
+C:\Users\vodya\OneDrive\Рабочий стол\дз\exRPM\exRPM\exRPM\obj\Debug\exRPM.exe
+C:\Users\vodya\OneDrive\Рабочий стол\дз\exRPM\exRPM\exRPM\obj\Debug\exRPM.pdb
