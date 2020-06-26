@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace exRPM
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
-        public Form1()
+        public Main()
         {
             InitializeComponent();
         }
@@ -20,6 +20,15 @@ namespace exRPM
         private void закрытьToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void добавитьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddingForm adf = new AddingForm();
+            if(adf.ShowDialog() == DialogResult.OK)
+            {
+
+            }
         }
     }
 }
